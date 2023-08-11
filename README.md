@@ -9,3 +9,16 @@ Run Test.java to play the game.
 
 Output:
 ![Screenshot 2023-08-11 at 4 24 15 PM](https://github.com/cedgark/card-die-game/assets/114522674/20ff8e4a-42de-4ed3-9975-ed416a6058ea)
+
+The classes have been identified -
+
+Input: Take in and store the game choice as user’s input.
+
+RandomInterface: Defines an interface to get the next random number LinearCongruentialGenerator: Generate a random number between 0 and 1 
+GameFactory: Creates objects without exposing the instantiation logic to the client. Game: Refers to the newly created objects through a common interface
+
+CardGame: Play the card game for the user.
+
+DieGame: Play the die game for the user.
+
+Test: Run all the above classes in the correct order.

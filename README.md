@@ -16,7 +16,9 @@ Input: Take in and store the game choice as user’s input.
 
 RandomInterface: Defines an interface to get the next random number LinearCongruentialGenerator: Generate a random number between 0 and 1 
 
-GameFactory: Creates objects without exposing the instantiation logic to the client. Game: Refers to the newly created objects through a common interface
+GameFactory: Creates objects without exposing the instantiation logic to the client. 
+
+Game: Refers to the newly created objects through a common interface
 
 CardGame: Play the card game for the user.
 

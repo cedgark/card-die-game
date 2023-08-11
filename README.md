@@ -25,3 +25,5 @@ CardGame: Play the card game for the user.
 DieGame: Play the die game for the user.
 
 Test: Run all the above classes in the correct order.
+
+To maximize cohesion and minimize coupling each class does one thing only and its methods relate to that class (following the specific responsibility principle). And the classes are designed to have as little dependency as possible by depending on the interface rather than the implementation.
